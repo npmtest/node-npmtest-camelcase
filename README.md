@@ -1,6 +1,6 @@
 # npmtest-camelcase
 
-#### test coverage for  [camelcase (v4.1.0)](https://github.com/sindresorhus/camelcase#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-camelcase.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-camelcase) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-camelcase.svg)](https://travis-ci.org/npmtest/node-npmtest-camelcase)
+#### basic test coverage for  [camelcase (v4.1.0)](https://github.com/sindresorhus/camelcase#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-camelcase.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-camelcase) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-camelcase.svg)](https://travis-ci.org/npmtest/node-npmtest-camelcase)
 
 #### Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-camelcase/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-camelcase/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-camelcase/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-camelcase/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-camelcase/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-camelcase/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-camelcase/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-camelcase/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-camelcase/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-camelcase/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-camelcase/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-camelcase/build/coverage.html/index.html)
 
@@ -93,7 +93,8 @@
     "version": "4.1.0",
     "xo": {
         "esnext": true
-    }
+    },
+    "bin": {}
 }
 ```
 
